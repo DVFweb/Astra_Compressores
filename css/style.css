@@ -1,0 +1,40 @@
+/* style.css */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h5 {
+  color: #003366;
+}
+
+.btn-primary {
+  background-color: #0051a8;
+  border-color: #004a97;
+}
+
+.btn-primary:hover {
+  background-color: #003f85;
+  border-color: #00336f;
+}
+
+.btn-outline-secondary.active {
+  background-color: #0051a8;
+  color: white;
+  border-color: #0051a8;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
