@@ -335,7 +335,7 @@ function handleResize() {
   } else if (width < 992) {
     visibleCards = 2;
   } else {
-    visibleCards = 4;
+    visibleCards = 3;
   }
 
   // Recalcular indicadores
